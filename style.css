@@ -90,6 +90,7 @@ border-radius: 10px;
 }
 .th-section{
     border-bottom: 1px solid #ddd;
+    margin: 10px 0px;
 }
 .th-content{
     font-size: 14px;
