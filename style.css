@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding:0px;
+    font-family: "Montserrat", sans-serif;;
+}
+
+
+.menu-icon-bg{
+    background: #b8b8b878;
+    height: 40px;
+    width: 40px;
+}
+
+.card-heading{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.card-p{
+    font-size: 12px;
+    font-weight: 600;
+    text-align: start;
+}
+
+.card-one{
+    background-color: #ffdc62;
+    border-radius: 10px;
+    
+}
+
+.explore-more{
+    width: 100%;
+
+    border: none;
+    outline: none;
+    background:#fff;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.card-two{
+    background: rgb(253,249,238);
+    background: linear-gradient(16deg, rgba(253,249,238,1) 0%, rgba(255,236,202,1) 91%);
+border-radius: 10px;
+}
+
+.btn-assess{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 14px;
+    float: right;
+
+}
+
+.card-three{
+    background: rgb(253,249,238);
+    background: linear-gradient(16deg, rgba(253,249,238,1) 0%, rgba(255,236,202,1) 91%);
+border-radius: 10px;
+
+}
+
+.comment-card{
+    margin:  10px 0px ;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: 1px solid #cecece;
+    border-radius: 10px;
+}
+
+.pinned-conments{
+    background-color: #d0ddf5;
+}
+.comment-date-and-time{
+    font-size: 12px;
+}
+
+.comment-icons{
+    font-size: 12px;
+    display: inline-block;
+    margin: 0px 5px;
+    font-weight: bold;
+}
+.right-sidebar{
+    background-color: #e3e9f7;
+    border: 1px solid #ddd;
+}
+.th-section{
+    border-bottom: 1px solid #ddd;
+}
+.th-content{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.th-button{
+    background-color: transparent;
+    border: 1px solid #0d6efd;
+    outline: none;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #0d6efd;
+    margin-bottom: 20px;
+    padding:0px 5px ;
+}
+
+.settings-bg{
+    background-color: #e6eefa;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width:1000px){
+    .sidebar{
+        display: none;
+    }
+    .feature-card-section{
+        
+    }
+}
